@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="Hi! I'm a tech enthusiast who is focusing on Full-Stack Development and Network engineering." />
+
+  <meta name="keywords" content="Roshen Perera software engineer fullstack developer network programming" />
+
+  <meta name="author" content="Roshen Perera" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.png" />
+  <link rel="stylesheet" href="assets/styles/normalize.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Roshen Perera</title>
+  <script defer src="assets/js/animation.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="https://roshen.serv00.net/"><img src="assets/images/roshen_logo.png" alt="logo" title="logo"></a>
+        </li>
+        <li class="hideOnMobile"><a href="#about">About</a></li>
+        <li class="hideOnMobile"><a href="#service">Services</a></li>
+        <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+        <li class="hideOnMobile"><a href="#contact">Contact Me</a></li>
+        <li class="menu" onclick="showSidebar()">
+          <a><i class="fa-solid fa-bars fa-2x"></i></a>
+        </li>
+      </ul>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a><i class="fa-solid fa-x fa-2x"></i></a>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <div id="home" class="home hidden">
+      <div class="leftsection hiddenL">
+        <p class="hello">Hello, I' am</p>
+        <div class="roshenperera"><span class="roshen">Roshen</span><span class="perera"> Perera</span></div>
+        <div class="cont">
+          <span class="text first-text">A </span>
+          <span class="text sec-text"></span>
+        </div>
+        <p>
+          A passionate software engineering student dedicated to mastering the
+          intricacies of code and design.
+        </p>
+        <div class="SOCIAL animate__animated animate__bounce">
+          <a href="https://github.com/Roshen-Perera" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-github-48.png" alt="github" /></a>
+          <a href="https://www.linkedin.com/in/roshenperera/" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-linkedin-48.png" alt="linkedin" /></a>
+          <a href="https://medium.com/@roshenperera" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-medium-50.png" alt="medium" /></a>
+          <a href="https://twitter.com/_roshenperera_" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-twitterx-50.png" alt="twitterx" /></a>
+        </div>
+
+        <br/>
+        <button class="button"><a href="#contact">Hire Me</a></button>
+      </div>
+      <div class="rightsection">
+        <img src="assets/images/roshen.png" alt="roshen" />
+      </div>
+    </div>
+
+    <div id="about" class="about hidden">
+      <h1>About<span class="head">&nbspMe</span></h1>
+      <div class="container-about">
+        <div class="aboutMe">
+          <section data-aos="zoom-out" class="myself hiddenL">
+            <h2>A bit of my self</h2>
+            <p>
+              Hi, I’ m Roshen Perera, a Software Engineer from Sri Lanka. I
+              have a passion for the IT industry and love creating your
+              products or services that your value proposition. I have two
+              years of experience in this industry. I’m always eager to learn
+              new things and take on new challenges. You can check some of my
+              work in the Projects section.. Thank you for visiting my
+              website!
+            </p>
+          </section>
+
+          <section data-aos="zoom-out" class="skills hiddenR">
+            <h2>My Skills</h2>
+            <div class="about-icons">
+              <i class="fa-brands fa-java fa-5x"></i>
+              <img src="assets/icons/icons8-mysql-50.png" />
+              <i class="fa-brands fa-git-alt fa-5x"></i>
+              <i class="fa-brands fa-html5 fa-5x"></i>
+              <i class="fa-brands fa-css3-alt fa-5x"></i>
+              <i class="fa-brands fa-js fa-5x"></i>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="experience">
+        <section class="hidden">
+          <h2>Certificates</h2>
+          <div data-aos="zoom-in" class="certificates-grid">
+            <div class="certificates">
+              <img src="assets/images/certificates/java-sololearn.jpg" alt="" />
+              <div class="certificates-layer">
+                <h3>Introduction to JAVA</h3>
+                <p>This is a CLI based Stock Management System.</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="certificates">
+              <img src="assets/images/certificates/java-sololearn.jpg" alt="" />
+              <div class="certificates-layer">
+                <h3>Introduction to SQL</h3>
+                <p>This is a CLI based Stock Management System.</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="certificates">
+              <img src="assets/images/certificates/java-sololearn.jpg" alt="" />
+              <div class="certificates-layer">
+                <h3>Introduction to HTML</h3>
+                <p>This is a CLI based Stock Management System.</p>
+                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="hidden">
+          <h2>Assignments</h2>
+          <div class="container">
+            <div data-aos="zoom-in" class="assignments-grid">
+              <div class="assignments">
+                <img src="assignments/02-Assignment/assignment2.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 01 CSS</h3>
+                  <div>
+                    <a href="https://www.gloomaps.com/GYlnx2RoWQ" target="_blank"><i
+                        class="fa-solid fa-sitemap"></i></a>
+                    <a href="https://drive.google.com/file/d/1JaxG-1stvjZtQT-T7u28Z8Z7M0wiHYrF/view?usp=sharing" target="_blank"><i
+                        class="fa-solid fa-table-columns"></i></a>
+                    <a href="https://www.figma.com/design/gtzF6iLyoyoiGYWlFT65kl/Untitled?node-id=0%3A1&t=xL0BkAHaVaCCbqzV-1"
+                      target="_blank"><i class="fa-brands fa-figma"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/02-Assignment/assignment2.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 02 CSS</h3>
+                  <div>
+                    <a href="assignments/02-Assignment/02.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/02-Assignment/index.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    <a href="https://github.com/Roshen-Perera/My-Profile/tree/main" target="_blank"><i
+                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/03-Assignment-CSS/assignment3.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 03 CSS</h3>
+                  <div>
+                    <a href="assignments/03-Assignment-CSS/03.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/03-Assignment-CSS/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/04-Assignment-CSS/assignment4.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 04 CSS</h3>
+                  <div>
+                    <a href="assignments/04-Assignment-CSS/04.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/04-Assignment-CSS/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/06-Assignment/assignment6.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 06 CSS</h3>
+                  <div>
+                    <a href="assignments/06-Assignment/06.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/06-Assignment/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/08-Assignment-CSS/assignment8.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 08 CSS</h3>
+                  <div>
+                    <a href="assignments/08-Assignment-CSS/08.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/08-Assignment-CSS/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/09-Assignment-CSS/assignment9.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 09 CSS</h3>
+                  <div>
+                    <a href="assignments/09-Assignment-CSS/09.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/09-Assignment-CSS/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/10-Assignment/assignment10.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 10</h3>
+                  <div>
+                    <a href="assignments/10-Assignment/10.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/10-Assignment/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="assignments">
+                <img src="assignments/11-Assignment/assignment11.png" alt="" />
+                <div class="assignments-layer">
+                  <h3>Assignment 11 CSS</h3>
+                  <div>
+                    <a href="assignments/11-Assignment/11.pdf" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a href="assignments/11-Assignment/index.html" target="_blank"><i
+                        class="fa-solid fa-eye"></i></a>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+<!--    finished xoxo-->
+
+<!--    start xoxo-->
+    <div id="service" class="service hidden">
+      <h1>Our&nbsp<span class="head">Services</span></h1>
+      <div class="container">
+        <div data-aos="zoom-out" class="services-grid">
+          <div class="services">
+            <img src="assets/images/services/android.jpg" alt="Android Development" />
+            <div class="services-layer">
+              <h3>Android Development</h3>
+              <p>Specializing in building robust and scalable applications for the Android platform. We use Java, Kotlin, and Android Studio to create apps that provide an excellent user experience on smartphones and tablets.</p>
+            </div>
+          </div>
+          <div class="services">
+            <img src="assets/images/services/ios.png" alt="iOS Development" />
+            <div class="services-layer">
+              <h3>iOS Development</h3>
+              <p>Expert in developing high-quality applications for Apple's iOS ecosystem. Using Swift and Objective-C, we design apps that are optimized for performance and adhere to Apple's design guidelines for iPhone and iPad devices.</p>
+            </div>
+          </div>
+          <div class="services">
+            <img src="assets/images/services/web.jpg" alt="Web Development" />
+            <div class="services-layer">
+              <h3>Web Development</h3>
+              <p>Providing comprehensive web development services including front-end and back-end development. We use HTML, CSS, JavaScript, and various frameworks to build responsive and interactive websites tailored to your business needs.</p>
+            </div>
+          </div>
+          <div class="services">
+            <img src="assets/images/services/net.jpg" alt="Network Administration" />
+            <div class="services-layer">
+              <h3>Network Administration</h3>
+              <p>Ensuring the reliability and security of your network infrastructure. We handle network setup, configuration, maintenance, and troubleshooting to keep your systems running smoothly and securely.</p>
+            </div>
+          </div>
+          <div class="services">
+            <img src="assets/images/services/data.jpg" alt="Data Analysis" />
+            <div class="services-layer">
+              <h3>Data Analysis</h3>
+              <p>Transforming raw data into actionable insights. We use statistical tools and data visualization techniques to help you understand trends, patterns, and make data-driven decisions that drive business growth.</p>
+            </div>
+          </div>
+          <div class="services">
+            <img src="assets/images/services/business.webp" alt="Business Analysis" />
+            <div class="services-layer">
+              <h3>Business Analysis</h3>
+              <p>Analyzing business processes and systems to identify areas for improvement. We provide strategic recommendations and solutions to enhance operational efficiency and achieve business objectives.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div id="projects" class="projects hidden">
+      <h1>My&nbsp<span class="head">Projects</span></h1>
+      <div data-aos="zoom-out" class="project-grid">
+        <div class="project">
+          <img src="assets/images/projects/stock.png" alt="stock_management_system"/>
+          <div class="project-layer">
+            <h3>Stock management system (CLI Based)</h3>
+            <p>
+              This is a CLI based stock management system made using JAVA.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/ITS1010-PRF-Coursework" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/projects/c4g.png" alt="connect_4_game"/>
+          <div class="project-layer">
+            <h3>Connect 4 Game</h3>
+            <p>
+              This is a game called Connect 4 Game made using OOP principals via JAVA.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/Connect-4-Game" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/projects/jayabima.png" alt="jayabimahardware"/>
+          <div class="project-layer">
+            <h3>Hardware Management System</h3>
+            <p>
+              This Hardware management system made using JAVAFX. MySQL is used for database. This system is implemented using MVC Architecture.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/Hardware-Store-Management-System-MVC-Architecture" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/projects/jayabima.png" alt="jayabimahardware"/>
+          <div class="project-layer">
+            <h3>Hardware Management System</h3>
+            <p>
+              This Hardware management system made using JAVAFX. MySQL is used for database. This system is implemented using Layered Architecture.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/Hardware-Store-Management-System-Layered-Architecture" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/projects/stock.png" alt="bookworm"/>
+          <div class="project-layer">
+            <h3>BookWorm Online Library</h3>
+            <p>
+              This is library management system which is made using hibernate.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/Hibernate-Mapping" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/images/projects/zenchat.png" alt="zenchat"/>
+          <div class="project-layer">
+            <h3>BookWorm Online Library</h3>
+            <p>
+              This is a chat application called ZenChat, implemented using client-server Architecture.
+            </p>
+            <div>
+              <a href="https://github.com/Roshen-Perera/https://github.com/Roshen-Perera/Live-Chat-Application" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact hidden">
+      <h1>Contact&nbsp<span class="head">Me</span></h1>
+      <form action="#">
+        <div class="fullName">
+          <input type="text" id="fname" placeholder="First Name" />
+          <input type="text" id="lname" placeholder="Last Name" />
+        </div>
+        <input type="email" id="email" placeholder="Email Address" />
+        <input type="number" id="number" placeholder="Mobile Number" />
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <button class="button button1"><a href="#contact">Submit</a></button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div id="footupsec" class="footupsec">
+      <div id="leftsec" class="leftsec">
+        <div>
+          <h3>M <span class="mrrobot">ROSHEN</span> FILISHIYAN PERERA</h3>
+        </div>
+        <p>
+          &nbsp<i class="fa-solid fa-mobile-screen-button"></i>&nbsp&nbsp:
+          <a href="tel:0760199035">0760199035</a>
+        </p>
+        <p>
+          &nbsp<i class="fa-solid fa-mobile-screen-button"></i>&nbsp&nbsp:
+          <a href="tel:0788744749">0788744749</a>
+        </p>
+        <p><i class="fa-solid fa-tty"></i><a href="tel:0362223053">&nbsp&nbsp: 0362223053</a></p>
+        <p>
+          <i class="fa-solid fa-envelope"></i>&nbsp&nbsp:
+          <a href="mailto:roshenpilishiyanperera@gmail.com">roshenpilishiyanperera@gmail.com</a>
+        </p>
+        <p>
+          &nbsp<i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/fVY6SqRxmWgFXX729" target="_blank">&nbsp&nbsp: No 28/D
+          Rathnapura Road, Diurumpitiya, Getaheththa, Sri Lanka
+        </a>
+        </p>
+      </div>
+      <div id="rightsec" class="rightsec">
+        <div>
+          <h3 class="footh3">SOCIALS</h3>
+        </div>
+        <div class="footicons">
+          <a href="https://github.com/Roshen-Perera" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-github-48.png" alt="github"/></a>
+          <a href="https://www.linkedin.com/in/roshenperera/" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-linkedin-48.png" alt="linkedin"/></a>
+          <a href="https://medium.com/@roshenperera" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-medium-50.png" alt="medium"/></a>
+          <a href="https://twitter.com/_roshenperera_" target="_blank"><img class="social-icon"
+              src="assets/icons/icons8-twitterx-50.png" alt="twitterx"/></a>
+        </div>
+      </div>
+    </div>
+    <section id="footblwsec" class="footblwsec">
+      <h3>
+        © 2024. <span class="head"><span class="roshen">Roshen</span><span class="perera">
+            Perera</span></span>™.&nbspAll rights
+        reserved.
+      </h3>
+    </section>
+  </footer>
+  <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function showSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "flex";
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "none";
+    }
+
+    const btn = document.querySelector(".button1");
+    btn.onclick = () => {
+      console.log("Adoo");
+      alert("This feature is currently in development");
+    };
+  </script>
+</body>
+
+</html>
